@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+</head>
+<body>
+    <!--Headings headings are block elements and each tag starts a new line-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!--Paragraphs are also block elements and start a new line-->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur non, numquam aperiam placeat delectus earum, iusto facere repudiandae accusamus vel est modi maiores reiciendis itaque.</p>
+    <!--We can use the horizontal rule to create a defined divider line it is also a block element-->
+    <hr>
+    <!--We can use the div tag to create organization for our elements. The div element is also a block element-->
+    <!-- We can nest elements together one inside the other the element that is nested is a child element and the element it is nested in is a parent element-->
+    <div>
+        <h1>The h1 is a child of the div element here</h1>
+        <p>The p is also a child element and is a sibling of the h1</p>
+    </div>
+    <!--We can use the em tag to create italic text it is an inline element as it does not start a new line-->
+    <em>This is italic</em>
+    <!--We can use the strong tag to create bolder text it is also an inline element-->
+    <strong>This is strong text</strong>
+    <!-- We can use the break tag to create a line break-->
+    <p>This is a paragraph with <br> a break</p>
+    <!--Inline elements can be nested in block elements but block elements cannot be nested in inline elements-->
+    <!-- We can create sections within a block element by using the span tag which is an inline element-->
+    <p>This is a paragraph.<span> Part of the text can be different </span> than the main text using the span tag or <strong> The strong tag </strong> or the <em> Em tag. </em> This is an example of why we might use inline elements nested inside block elements</p>
+    <!--Wait nothing happened to our span tag why? It is just a seperating tag. Elements can have attributes that give us additional information about the element. We will look at a simple example using the same code and the style attribute-->
+    <p>This is a paragraph.<span style="color:blue"> Part of the text can be different </span> than the main text using the span tag or <strong> The strong tag </strong> or the <em> Em tag. </em> This is an example of why we might use inline elements nested inside block elements</p>
+    <!--We can use the style attribute to understand more about block elements-->
+    <h1 style="background-color: red">The h tags take up the entire space</h1>
+    <div style="background-color: blue;">So do div tags</div>
+    <div style="background-color: green;">So do p tags and all block elements</div>
+    <!--We can use the style attribute to understand more about inline elements-->
+    <div style="background-color:orange">This parent element <span style="background-color:purple">has a span nested inside</span> as a child element </div>
+</body>
+</html>
