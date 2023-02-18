@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8</title>
+</head>
+<body>
+    <!--Forms-->
+    <form>
+        <!--Text Input-->
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="username">
+        </div>
+        <!--Email Input-->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@email.com">
+        </div>
+        <!--Text Area Input-->
+        <div>
+            <label for="blog-post">Blog Post</label>
+            <textarea name="blog-post" id="blog-post" cols="30" rows="10"></textarea>
+        </div>
+        <!--Select-->
+        <div>
+            <label for="user-type">User Type</label>
+            <select name="user-type" id="user-type">
+                <option value="guest">Guest</option>
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
+        </div>
+        <!--Number Input-->
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" min="16" max="99">
+        </div>
+        <!--Date-->
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+        </div>
+        <!--Radio Button-->
+        <div>
+            <label for="user-level">User Level</label>
+            <input type="radio" id="user-level" value="bronze"> Bronze
+            <input type="radio" id="user-level" value="silver"> Silver
+            <input type="radio" id="user-level" value="gold"> Gold
+        </div>
+        <!--Check Boxes-->
+        <div>
+            <input type="checkbox" id="remember"> Remember Me
+        </div>
+        <!--Submit Button-->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
